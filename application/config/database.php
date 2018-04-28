@@ -1,9 +1,6 @@
 <?php
 defined('BASEPATH') OR exit('No direct script access allowed');
 /*
-DB: destiny2_dms
-User: destiny2_dms
-Pwd: 3q1EhEVxQXBM
 */
 /*
 | -------------------------------------------------------------------
@@ -81,9 +78,9 @@ $query_builder = TRUE;
 $db['default'] = array(
 	'dsn'	=> '',
 	'hostname' => 'localhost',
-	'username' => 'destiny2_dms',
-	'password' => '3q1EhEVxQXBM',
-	'database' => 'destiny2_dms',
+	'username' => 'root',
+	'password' => '',
+	'database' => 'dms',
 	'dbdriver' => 'mysqli',
 	'dbprefix' => '',
 	'pconnect' => FALSE,
