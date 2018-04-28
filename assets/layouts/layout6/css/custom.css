@@ -1,0 +1,93 @@
+/* here you can put your own css to customize and override the theme */
+
+.flow {
+	cursor: pointer;
+}
+
+.flow:hover {
+	background-color: rgba(206, 223, 209, 0.81);
+}
+
+#amChart{
+  width: 100%;
+  height: 50vh;
+}
+
+.amcharts-graph-g1 .amcharts-graph-stroke {
+  stroke-dasharray: 3px 3px;
+  stroke-linejoin: round;
+  stroke-linecap: round;
+  -webkit-animation: am-moving-dashes 1s linear infinite;
+  animation: am-moving-dashes 1s linear infinite;
+}
+
+@-webkit-keyframes am-moving-dashes {
+  100% {
+    stroke-dashoffset: -31px;
+  }
+}
+@keyframes am-moving-dashes {
+  100% {
+    stroke-dashoffset: -31px;
+  }
+}
+
+/*Add By:: Nikunj Bhimani*/
+
+.img-container {
+  position: relative;
+  margin-top: 5px;
+  width: 200px;
+  height: 50px;
+}
+
+#imagePreview1{
+    width: 100%;
+    height: 50px;
+    /*background-position: center center;
+    background-size: cover;
+    -webkit-box-shadow: 0 0 1px 1px rgba(0, 0, 0, .3);*/
+}
+
+.img-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 50px;
+  color: #FFF;
+  transition: background 0.5s ease;
+}
+
+/*.img-container:hover .img-overlay {
+  display: block;
+  background: rgba(0, 0, 0, .6);
+}*/
+
+.img-container img {
+  position: absolute;
+  left: 0;
+}
+
+.img-button {
+  position: absolute;
+  width: 100%;
+  left:1px;
+  top: -3px;
+  text-align: center;
+  opacity: 1;
+  transition: opacity .20s;
+}
+
+.img-button a {
+  width: 200px;
+  font-size: 40px;
+  padding: 12px 48px;
+  text-align: center;
+  color: black;
+  z-index: 1;
+}
+
+/*.img-container:hover .img-button {
+  opacity: 1;
+}*/

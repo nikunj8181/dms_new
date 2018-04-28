@@ -1,0 +1,21 @@
+.modal-content{
+  border: 10px solid rgba(53,152,220,.2);
+  border-radius: 5px;
+}
+.modal-header{
+  background-color: #3598dc;
+  padding: 10px !important; 
+}
+
+.closebtn{
+  float: right;
+  background: rgba(0, 0, 0, .0);
+  border: none;
+  color: #FF0000;
+  font-size: 25px !important;
+  padding: 6px;
+}
+.modal-title{
+  color:#ffffff;
+  font-weight: 800;
+}
